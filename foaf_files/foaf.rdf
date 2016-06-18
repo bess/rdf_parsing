@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    >
+    <foaf:PersonalProfileDocument rdf:about="">
+        <foaf:maker rdf:resource="#me"/>
+        <foaf:primaryTopic rdf:resource="#me"/>
+        <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+        <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Elizabeth Sadler</foaf:name>
+        <foaf:title>Ms</foaf:title>
+        <foaf:givenname>Elizabeth</foaf:givenname>
+        <foaf:family_name>Sadler</foaf:family_name>
+        <foaf:nick>Bess</foaf:nick>
+        <foaf:mbox_sha1sum>6ef1ee57c4261c7bba327ceb3186ccbdf35f71f0</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://www.ibiblio.org/bess"/>
+        <foaf:depiction rdf:resource="http://farm3.static.flickr.com/2075/2332376284_4fcd98e984_m.jpg"/>
+        <foaf:phone rdf:resource="tel:434-243-2305"/>
+        <foaf:workplaceHomepage rdf:resource="http://library.stanford.edu/"/>
+        <foaf:schoolHomepage rdf:resource="http://www.slis.ualberta.ca/"/>
+        <foaf:schoolHomepage rdf:resource="http://www.unc.edu/"/>
+        <swc:attendeeAt rdf:resource="http://code4lib.org/2009#conference"/>
+	<swc:attendeeAt rdf:resource="http://code4lib.org/node/266#linked-data-preconf"/>
+
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Programming" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Semantic_Web" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Digital_preservation" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Digital_library" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Free_software" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Library" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Library_catalog" />
+        <foaf:interest rdf:resource="http://dbpedia.org/resource/Metadata" />
+        <foaf:interest rdf:resource="http://dbpedia.org/page/Firefly_(TV_series)" />
+
+
+        <foaf:knows rdf:resource="http://www.jodischneider.com/#me" />
+        <foaf:knows rdf:resource="http://inkdroid.org/ehs"/>
+        <foaf:knows rdf:resource="http://kevinclarke.info/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://thesecretmirror.com/foaf.xml#matienzo"/>
+        <foaf:knows rdf:resource="http://dilettantes.code4lib.org/about-me/#me"/>
+        <foaf:knows rdf:resource="http://blog.reallywow.com/foaf#me"/>
+        <foaf:knows rdf:resource="http://mediashelf.us/about/foaf.rdf#flyingzumwalt"/>
+        <foaf:knows rdf:resource="http://michael.is.outoffoc.us/michael/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://www.barr.eraic.us/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://roytennant.com/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://declan.net/foaf.rdf#djf"/>
+        <foaf:knows rdf:resource="http://rc98.net/foaf#me"/>
+        <foaf:knows rdf:resource="http://lackoftalent.org/michael/id/"/>
+        <foaf:knows rdf:resource="http://dysinterested.com/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://www.miskatonic.org/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="http://billdueber.com/foaf.rdf#me"/>
+        <foaf:holdsAccount rdf:resource="http://twitter.com/eosadler"/>
+
+    </foaf:Person>
+</rdf:RDF>
