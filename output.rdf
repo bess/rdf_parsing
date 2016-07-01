@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rdf:RDF xmlns:ns0='http://xmlns.com/foaf/0.1/' xmlns:ns1='http://data.semanticweb.org/ns/swc/ontology#' xmlns:ns2='http://data.semanticweb.org/ns/swc/' xmlns:ns3='http://webns.net/mvcb/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <ns0:PersonalProfileDocument rdf:about='foaf_files/foaf.rdf'>
+    <ns3:errorReportsTo rdf:resource='mailto:leigh@ldodds.com' />
+    <ns3:generatorAgent rdf:resource='http://www.ldodds.com/foaf/foaf-a-matic' />
+    <ns0:maker>
+      <ns0:Person rdf:about='foaf_files/foaf.rdf#me'>
+        <ns1:attendeeAt rdf:resource='http://code4lib.org/2009#conference' />
+         <ns1:attendeeAt rdf:resource='http://code4lib.org/node/266#linked-data-preconf' />
+        <ns0:depiction rdf:resource='http://farm3.static.flickr.com/2075/2332376284_4fcd98e984_m.jpg' />
+        <ns0:family_name>Sadler</ns0:family_name>
+        <ns0:givenname>Elizabeth</ns0:givenname>
+        <ns0:holdsAccount rdf:resource='http://twitter.com/eosadler' />
+        <ns0:homepage rdf:resource='http://www.ibiblio.org/bess' />
+        <ns0:interest rdf:resource='http://dbpedia.org/resource/Free_software' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Digital_preservation' />
+         <ns0:interest rdf:resource='http://dbpedia.org/page/Firefly_(TV_series)' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Programming' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Library' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Digital_library' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Metadata' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Semantic_Web' />
+         <ns0:interest rdf:resource='http://dbpedia.org/resource/Library_catalog' />
+        <ns0:knows>
+          <ns0:Person rdf:about='https://stanford.edu/~arcadia/foaf.rdf#me'>
+            <ns1:attendeeAt rdf:resource='http://code4lib.org/2016#conference' />
+             <ns1:attendeeAt rdf:resource='http://code4lib.org/2015#conference' />
+             <ns1:attendeeAt rdf:resource='http://code4lib.org/2014#conference' />
+            <ns0:family_name>Falcone</ns0:family_name>
+            <ns0:givenname>Arcadia</ns0:givenname>
+            <ns0:holdsAccount rdf:resource='http://twitter.com/stringcourse' />
+             <ns0:holdsAccount rdf:resource='http://twitter.com/arcadia' />
+            <ns0:homepage rdf:resource='http://www.arcadiafalcone.net' />
+            <ns0:interest rdf:resource='http://dbpedia.org/resource/Digital_preservation' />
+             <ns0:interest rdf:resource='http://viaf.org/viaf/175497077/#Dunnett,_Dorothy._|_Lymond_chronicles' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Programming' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Library' />
+             <ns0:interest rdf:resource='http://viaf.org/viaf/29540426/' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Digital_library' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Metadata' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Semantic_Web' />
+             <ns0:interest rdf:resource='http://dbpedia.org/resource/Library_catalog' />
+            <ns0:knows>
+              <ns0:Person rdf:about='https://stanford.edu/~ahafele/foaf.rdf#me'>
+                <ns0:family_name>Hafele</ns0:family_name>
+                <ns0:givenname>Alissa</ns0:givenname>
+                <ns0:homepage rdf:resource='http://web.stanford.edu/~ahafele/' />
+                <ns0:knows rdf:resource='http://stanford.edu/~bess/foaf.rdf ' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~laneymcg/laney.rdf ' />
+                <ns0:mbox_sha1sum>044612487eb8ce2d1a638bb1938ac7719857d7d7</ns0:mbox_sha1sum>
+                <ns0:name>Alissa Hafele</ns0:name>
+                <ns0:schoolHomepage rdf:resource='http://drexel.edu/' />
+                <ns0:workplaceHomepage rdf:resource='http://library.stanford.edu/' />
+              </ns0:Person>
+            </ns0:knows>
+             <ns0:knows>
+              <ns0:Person rdf:about='https://stanford.edu/~laneymcg/laura.rdf#me'>
+                <ns0:family_name>Wilsey</ns0:family_name>
+                <ns0:givenname>Laura</ns0:givenname>
+                <ns0:mbox_sha1sum>325c881e896a39092595946cc65c3a977d7db49c</ns0:mbox_sha1sum>
+                <ns0:name>Laura Wilsey</ns0:name>
+                <ns0:schoolHomepage rdf:resource='http://www.ucsc.edu/' />
+                <ns0:workInfoHomepage rdf:resource='http://library.stanford.edu/department/digital-library-systems-and-services-dlss/about-us' />
+                <ns0:workplaceHomepage rdf:resource='http://web.stanford.edu/~lauraw15/' />
+              </ns0:Person>
+            </ns0:knows>
+             <ns0:knows>
+              <ns0:Person rdf:about='https://stanford.edu/~azanella/me.rdf#me'>
+                <ns0:family_name>Zanella</ns0:family_name>
+                <ns0:givenname>Tony</ns0:givenname>
+                <ns0:knows rdf:resource='http://stanford.edu/~laneymcg/laura.rdf' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~arcadia/foaf.rdf' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~laneymcg/laney.rdf' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~bess/foaf.rdf#me' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~ahafele/ahafele.rdf' />
+                 <ns0:knows rdf:resource='http://stanford.edu/~thorsenh/foaf.rdf' />
+                <ns0:mbox_sha1sum>9620761ad823d4ee5a6e091ebaeb5018fef993a4</ns0:mbox_sha1sum>
+                <ns0:name>Tony Zanella</ns0:name>
+                <ns0:schoolHomepage rdf:resource='http://www.montana.edu/' />
+                <ns0:workInfoHomepage rdf:resource='https://stanford.edu/~azanella/Software Developer' />
+              </ns0:Person>
+            </ns0:knows>
+             <ns0:knows rdf:resource='https://stanford.edu/~laneymcg/laney.rdf#me' />
+             <ns0:knows rdf:resource='https://stanford.edu/~bess/foaf.rdf#me' />
+             <ns0:knows>
+              <ns0:Person rdf:about='https://stanford.edu/~thorsenh/foaf.rdf#me'>
+                <ns2:ontologyattendeeAt rdf:resource='http://www.iskocus.org/nasko2015.php' />
+                 <ns2:ontologyattendeeAt rdf:resource='http://alaac15.ala.org/' />
+                <ns0:family_name>Thorsen</ns0:family_name>
+                <ns0:gender>Female</ns0:gender>
+                <ns0:givenname>Hilary</ns0:givenname>
+                <ns0:holdsAccount rdf:resource='https://www.linkedin.com/in/hilary-thorsen-50ba3a16' />
+                <ns0:knows rdf:resource='https://stanford.edu/~arcadia/foaf.rdf#me' />
+                 <ns0:knows rdf:resource='https://stanford.edu/~ahafele/foaf.rdf#me' />
+                 <ns0:knows rdf:resource='https://stanford.edu/~laneymcg/laura.rdf#me' />
+                 <ns0:knows rdf:resource='https://stanford.edu/~azanella/me.rdf#me' />
+                 <ns0:knows rdf:resource='https://stanford.edu/~laneymcg/laney.rdf#me' />
+                <ns0:name>Hilary Thorsen</ns0:name>
+                <ns0:phone rdf:resource='tel:650-725-4420' />
+                <ns0:schoolHomepage rdf:resource='http://www.cornell.edu/' />
+                 <ns0:schoolHomepage rdf:resource='http://www.pratt.edu/' />
+                <ns0:title>Ms</ns0:title>
+                <ns0:workplaceHomepage rdf:resource='http://library.stanford.edu/' />
+              </ns0:Person>
+            </ns0:knows>
+            <ns0:mbox_sha1sum>cf05b5d8871e7d36d370ecbf785f4f6167dc0778</ns0:mbox_sha1sum>
+            <ns0:name>Arcadia Falcone</ns0:name>
+            <ns0:phone rdf:resource='tel:650-498-8058' />
+            <ns0:schoolHomepage rdf:resource='http://www.berkeley.edu/' />
+             <ns0:schoolHomepage rdf:resource='http://www.swarthmore.edu/' />
+             <ns0:schoolHomepage rdf:resource='http://www.ischool.utexas.edu/' />
+            <ns0:title>Ms</ns0:title>
+            <ns0:workplaceHomepage rdf:resource='http://library.stanford.edu/' />
+          </ns0:Person>
+        </ns0:knows>
+         <ns0:knows rdf:resource='https://stanford.edu/~ahafele/foaf.rdf#me' />
+         <ns0:knows rdf:resource='https://stanford.edu/~laneymcg/laura.rdf#me' />
+         <ns0:knows rdf:resource='https://stanford.edu/~azanella/me.rdf#me' />
+         <ns0:knows rdf:resource='https://stanford.edu/~thorsenh/foaf.rdf#me' />
+        <ns0:mbox_sha1sum>6ef1ee57c4261c7bba327ceb3186ccbdf35f71f0</ns0:mbox_sha1sum>
+        <ns0:name>Elizabeth Sadler</ns0:name>
+        <ns0:nick>Bess</ns0:nick>
+        <ns0:phone rdf:resource='tel:434-243-2305' />
+        <ns0:schoolHomepage rdf:resource='http://www.slis.ualberta.ca/' />
+         <ns0:schoolHomepage rdf:resource='http://www.unc.edu/' />
+        <ns0:title>Ms</ns0:title>
+        <ns0:workplaceHomepage rdf:resource='http://library.stanford.edu/' />
+      </ns0:Person>
+    </ns0:maker>
+    <ns0:primaryTopic rdf:resource='foaf_files/foaf.rdf#me' />
+  </ns0:PersonalProfileDocument>
+  <ns0:PersonalProfileDocument rdf:about='https://stanford.edu/~ahafele/foaf.rdf'>
+    <ns3:errorReportsTo rdf:resource='mailto:leigh@ldodds.com' />
+    <ns3:generatorAgent rdf:resource='http://www.ldodds.com/foaf/foaf-a-matic' />
+    <ns0:maker rdf:resource='https://stanford.edu/~ahafele/foaf.rdf#me' />
+    <ns0:primaryTopic rdf:resource='https://stanford.edu/~ahafele/foaf.rdf#me' />
+  </ns0:PersonalProfileDocument>
+  <ns0:PersonalProfileDocument rdf:about='https://stanford.edu/~azanella/me.rdf'>
+    <ns3:errorReportsTo rdf:resource='mailto:leigh@ldodds.com' />
+    <ns3:generatorAgent rdf:resource='http://www.ldodds.com/foaf/foaf-a-matic' />
+    <ns0:maker rdf:resource='https://stanford.edu/~azanella/me.rdf#me' />
+    <ns0:primaryTopic rdf:resource='https://stanford.edu/~azanella/me.rdf#me' />
+  </ns0:PersonalProfileDocument>
+  <ns0:PersonalProfileDocument rdf:about='https://stanford.edu/~laneymcg/laura.rdf'>
+    <ns3:errorReportsTo rdf:resource='mailto:leigh@ldodds.com' />
+    <ns3:generatorAgent rdf:resource='http://www.ldodds.com/foaf/foaf-a-matic' />
+    <ns0:maker rdf:resource='https://stanford.edu/~laneymcg/laura.rdf#me' />
+    <ns0:primaryTopic rdf:resource='https://stanford.edu/~laneymcg/laura.rdf#me' />
+  </ns0:PersonalProfileDocument>
+
+</rdf:RDF>
