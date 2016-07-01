@@ -39,23 +39,12 @@
         <foaf:interest rdf:resource="http://dbpedia.org/resource/Metadata" />
         <foaf:interest rdf:resource="http://dbpedia.org/page/Firefly_(TV_series)" />
 
+        <foaf:knows rdf:resource="https://stanford.edu/~azanella/me.rdf#me"/>
+        <foaf:knows rdf:resource="https://stanford.edu/~laneymcg/laura.rdf#me"/>
+        <foaf:knows rdf:resource="https://stanford.edu/~arcadia/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="https://stanford.edu/~thorsenh/foaf.rdf#me"/>
+        <foaf:knows rdf:resource="https://stanford.edu/~ahafele/foaf.rdf#me"/>
 
-        <foaf:knows rdf:resource="http://www.jodischneider.com/#me" />
-        <foaf:knows rdf:resource="http://inkdroid.org/ehs"/>
-        <foaf:knows rdf:resource="http://kevinclarke.info/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://thesecretmirror.com/foaf.xml#matienzo"/>
-        <foaf:knows rdf:resource="http://dilettantes.code4lib.org/about-me/#me"/>
-        <foaf:knows rdf:resource="http://blog.reallywow.com/foaf#me"/>
-        <foaf:knows rdf:resource="http://mediashelf.us/about/foaf.rdf#flyingzumwalt"/>
-        <foaf:knows rdf:resource="http://michael.is.outoffoc.us/michael/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://www.barr.eraic.us/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://roytennant.com/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://declan.net/foaf.rdf#djf"/>
-        <foaf:knows rdf:resource="http://rc98.net/foaf#me"/>
-        <foaf:knows rdf:resource="http://lackoftalent.org/michael/id/"/>
-        <foaf:knows rdf:resource="http://dysinterested.com/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://www.miskatonic.org/foaf.rdf#me"/>
-        <foaf:knows rdf:resource="http://billdueber.com/foaf.rdf#me"/>
         <foaf:holdsAccount rdf:resource="http://twitter.com/eosadler"/>
 
     </foaf:Person>
