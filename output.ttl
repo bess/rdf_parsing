@@ -32,19 +32,19 @@
    <http://xmlns.com/foaf/0.1/holdsAccount> <http://twitter.com/eosadler>;
    <http://xmlns.com/foaf/0.1/homepage> <http://www.ibiblio.org/bess>;
    <http://xmlns.com/foaf/0.1/interest> <http://dbpedia.org/page/Firefly_(TV_series)>,
-     <http://dbpedia.org/resource/Library_catalog>,
-     <http://dbpedia.org/resource/Digital_preservation>,
-     <http://dbpedia.org/resource/Programming>,
      <http://dbpedia.org/resource/Digital_library>,
+     <http://dbpedia.org/resource/Digital_preservation>,
      <http://dbpedia.org/resource/Metadata>,
-     <http://dbpedia.org/resource/Free_software>,
+     <http://dbpedia.org/page/Developmental_psychology>,
+     <http://dbpedia.org/resource/Library_catalog>,
      <http://dbpedia.org/resource/Semantic_Web>,
-     <http://dbpedia.org/resource/Library>;
+     <http://dbpedia.org/resource/Library>,
+     <http://dbpedia.org/resource/Free_software>;
    <http://xmlns.com/foaf/0.1/knows> <https://stanford.edu/~arcadia/foaf.rdf#me>,
-     <https://stanford.edu/~thorsenh/foaf.rdf#me>,
      <https://stanford.edu/~ahafele/foaf.rdf#me>,
-     <https://stanford.edu/~laneymcg/laura.rdf#me>,
-     <https://stanford.edu/~azanella/me.rdf#me>;
+     <https://stanford.edu/~azanella/me.rdf#me>,
+     <https://stanford.edu/~thorsenh/foaf.rdf#me>,
+     <https://stanford.edu/~laneymcg/laura.rdf#me>;
    <http://xmlns.com/foaf/0.1/mbox_sha1sum> "6ef1ee57c4261c7bba327ceb3186ccbdf35f71f0";
    <http://xmlns.com/foaf/0.1/name> "Elizabeth Sadler";
    <http://xmlns.com/foaf/0.1/nick> "Bess";
@@ -55,35 +55,32 @@
    <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://library.stanford.edu/> .
 
 <https://stanford.edu/~arcadia/foaf.rdf#me> a <http://xmlns.com/foaf/0.1/Person>;
-   <http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://code4lib.org/2016#conference>,
-     <http://code4lib.org/2015#conference>,
-     <http://code4lib.org/2014#conference>;
+   <http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://code4lib.org/2014#conference>,
+     <http://code4lib.org/2016#conference>,
+     <http://code4lib.org/2015#conference>;
    <http://xmlns.com/foaf/0.1/family_name> "Falcone";
    <http://xmlns.com/foaf/0.1/givenname> "Arcadia";
    <http://xmlns.com/foaf/0.1/holdsAccount> <http://twitter.com/stringcourse>,
      <http://twitter.com/arcadia>;
    <http://xmlns.com/foaf/0.1/homepage> <http://www.arcadiafalcone.net>;
-   <http://xmlns.com/foaf/0.1/interest> <http://dbpedia.org/resource/Library_catalog>,
-     <http://dbpedia.org/resource/Digital_preservation>,
-     <http://dbpedia.org/resource/Programming>,
-     <http://viaf.org/viaf/175497077/#Dunnett,_Dorothy._|_Lymond_chronicles>,
-     <http://dbpedia.org/resource/Digital_library>,
+   <http://xmlns.com/foaf/0.1/interest> <http://dbpedia.org/resource/Silent_film>,
      <http://viaf.org/viaf/29540426/>,
      <http://dbpedia.org/resource/Metadata>,
-     <http://dbpedia.org/resource/Semantic_Web>,
-     <http://dbpedia.org/resource/Library>;
-   <http://xmlns.com/foaf/0.1/knows> <https://stanford.edu/~thorsenh/foaf.rdf#me>,
-     <https://stanford.edu/~bess/foaf.rdf#me>,
+     <http://dbpedia.org/resource/Sylvia_Beach>,
+     <http://viaf.org/viaf/175497077/#Dunnett,_Dorothy._|_Lymond_chronicles>,
+     <http://dbpedia.org/resource/Tweed_(cloth)>;
+   <http://xmlns.com/foaf/0.1/knows> <https://stanford.edu/~bess/foaf.rdf#me>,
      <https://stanford.edu/~ahafele/foaf.rdf#me>,
+     <https://stanford.edu/~azanella/me.rdf#me>,
+     <https://stanford.edu/~thorsenh/foaf.rdf#me>,
      <https://stanford.edu/~laneymcg/laney.rdf#me>,
-     <https://stanford.edu/~laneymcg/laura.rdf#me>,
-     <https://stanford.edu/~azanella/me.rdf#me>;
+     <https://stanford.edu/~laneymcg/laura.rdf#me>;
    <http://xmlns.com/foaf/0.1/mbox_sha1sum> "cf05b5d8871e7d36d370ecbf785f4f6167dc0778";
    <http://xmlns.com/foaf/0.1/name> "Arcadia Falcone";
    <http://xmlns.com/foaf/0.1/phone> <tel:650-498-8058>;
-   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.berkeley.edu/>,
-     <http://www.swarthmore.edu/>,
-     <http://www.ischool.utexas.edu/>;
+   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.ischool.utexas.edu/>,
+     <http://www.berkeley.edu/>,
+     <http://www.swarthmore.edu/>;
    <http://xmlns.com/foaf/0.1/title> "Ms";
    <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://library.stanford.edu/> .
 
@@ -96,22 +93,43 @@
    <http://xmlns.com/foaf/0.1/holdsAccount> <https://www.linkedin.com/in/hilary-thorsen-50ba3a16>;
    <http://xmlns.com/foaf/0.1/knows> <https://stanford.edu/~arcadia/foaf.rdf#me>,
      <https://stanford.edu/~ahafele/foaf.rdf#me>,
+     <https://stanford.edu/~azanella/me.rdf#me>,
      <https://stanford.edu/~laneymcg/laney.rdf#me>,
-     <https://stanford.edu/~laneymcg/laura.rdf#me>,
-     <https://stanford.edu/~azanella/me.rdf#me>;
+     <https://stanford.edu/~laneymcg/laura.rdf#me>;
    <http://xmlns.com/foaf/0.1/name> "Hilary Thorsen";
    <http://xmlns.com/foaf/0.1/phone> <tel:650-725-4420>;
-   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.pratt.edu/>,
-     <http://www.cornell.edu/>;
+   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.cornell.edu/>,
+     <http://www.pratt.edu/>;
    <http://xmlns.com/foaf/0.1/title> "Ms";
    <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://library.stanford.edu/> .
+
+<https://stanford.edu/~laneymcg/laura.rdf#me> a <http://xmlns.com/foaf/0.1/Person>;
+   <http://xmlns.com/foaf/0.1/family_name> "Wilsey";
+   <http://xmlns.com/foaf/0.1/givenname> "Laura";
+   <http://xmlns.com/foaf/0.1/interest> <http://dbpedia.org/page/The_Neverending_Story>,
+     <http://dbpedia.org/page/Science_fiction>,
+     <http://dbpedia.org/page/Big_Sur>,
+     <http://dbpedia.org/page/Documentary_film>,
+     <http://dbpedia.org/page/Greyhound>;
+   <http://xmlns.com/foaf/0.1/knows> <https://stanford.edu/~bess/foaf.rdf#me>,
+     <http://www.stanford.edu/~laneymcg/laney.rdf>,
+     <https://stanford.edu/~azanella/me.rdf#me>,
+     <https://stanford.edu/~thorsenh/foaf.rdf#me>,
+     <http://www.stanford.edu/~arcadia/foaf.rdf>,
+     <https://stanford.edu/~ahafele/foaf.rdf#me>;
+   <http://xmlns.com/foaf/0.1/mbox_sha1sum> "325c881e896a39092595946cc65c3a977d7db49c";
+   <http://xmlns.com/foaf/0.1/name> "Laura Wilsey";
+   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.ucsc.edu/>;
+   <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://library.stanford.edu/department/digital-library-systems-and-services-dlss/about-us>;
+   <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://web.stanford.edu/~lauraw15/> .
 
 <https://stanford.edu/~ahafele/foaf.rdf#me> a <http://xmlns.com/foaf/0.1/Person>;
    <http://xmlns.com/foaf/0.1/family_name> "Hafele";
    <http://xmlns.com/foaf/0.1/givenname> "Alissa";
    <http://xmlns.com/foaf/0.1/homepage> <http://web.stanford.edu/~ahafele/>;
-   <http://xmlns.com/foaf/0.1/knows> <http://stanford.edu/~laneymcg/laney.rdf >,
-     <http://stanford.edu/~bess/foaf.rdf >;
+   <http://xmlns.com/foaf/0.1/interests> [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#resources> "http://dbpedia.org/page/Equestrianism"],  [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#resources> "http://dbpedia.org/page/Art_history"],  [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#resources> "http://dbpedia.org/page/Orphan_Black"];
+   <http://xmlns.com/foaf/0.1/knows> <http://stanford.edu/~bess/foaf.rdf>,
+     <http://stanford.edu/~laneymcg/laney.rdf>;
    <http://xmlns.com/foaf/0.1/mbox_sha1sum> "044612487eb8ce2d1a638bb1938ac7719857d7d7";
    <http://xmlns.com/foaf/0.1/name> "Alissa Hafele";
    <http://xmlns.com/foaf/0.1/schoolHomepage> <http://drexel.edu/>;
@@ -120,22 +138,15 @@
 <https://stanford.edu/~azanella/me.rdf#me> a <http://xmlns.com/foaf/0.1/Person>;
    <http://xmlns.com/foaf/0.1/family_name> "Zanella";
    <http://xmlns.com/foaf/0.1/givenname> "Tony";
-   <http://xmlns.com/foaf/0.1/knows> <http://stanford.edu/~bess/foaf.rdf#me>,
-     <http://stanford.edu/~laneymcg/laura.rdf>,
-     <http://stanford.edu/~laneymcg/laney.rdf>,
+   <http://xmlns.com/foaf/0.1/interest> <http://dbpedia.org/page/Point_Break>,
+     <http://dbpedia.org/page/Bass_guitar>;
+   <http://xmlns.com/foaf/0.1/knows> <http://stanford.edu/~laneymcg/laura.rdf>,
+     <http://stanford.edu/~ahafele/ahafele.rdf>,
+     <http://stanford.edu/~bess/foaf.rdf#me>,
      <http://stanford.edu/~arcadia/foaf.rdf>,
      <http://stanford.edu/~thorsenh/foaf.rdf>,
-     <http://stanford.edu/~ahafele/ahafele.rdf>;
+     <http://stanford.edu/~laneymcg/laney.rdf>;
    <http://xmlns.com/foaf/0.1/mbox_sha1sum> "9620761ad823d4ee5a6e091ebaeb5018fef993a4";
    <http://xmlns.com/foaf/0.1/name> "Tony Zanella";
    <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.montana.edu/>;
    <http://xmlns.com/foaf/0.1/workInfoHomepage> <https://stanford.edu/~azanella/Software Developer> .
-
-<https://stanford.edu/~laneymcg/laura.rdf#me> a <http://xmlns.com/foaf/0.1/Person>;
-   <http://xmlns.com/foaf/0.1/family_name> "Wilsey";
-   <http://xmlns.com/foaf/0.1/givenname> "Laura";
-   <http://xmlns.com/foaf/0.1/mbox_sha1sum> "325c881e896a39092595946cc65c3a977d7db49c";
-   <http://xmlns.com/foaf/0.1/name> "Laura Wilsey";
-   <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.ucsc.edu/>;
-   <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://library.stanford.edu/department/digital-library-systems-and-services-dlss/about-us>;
-   <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://web.stanford.edu/~lauraw15/> .

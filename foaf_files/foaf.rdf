@@ -29,7 +29,7 @@
         <swc:attendeeAt rdf:resource="http://code4lib.org/2009#conference"/>
 	<swc:attendeeAt rdf:resource="http://code4lib.org/node/266#linked-data-preconf"/>
 
-        <foaf:interest rdf:resource="http://dbpedia.org/resource/Programming" />
+        <foaf:interest rdf:resource="http://dbpedia.org/page/Developmental_psychology" />
         <foaf:interest rdf:resource="http://dbpedia.org/resource/Semantic_Web" />
         <foaf:interest rdf:resource="http://dbpedia.org/resource/Digital_preservation" />
         <foaf:interest rdf:resource="http://dbpedia.org/resource/Digital_library" />

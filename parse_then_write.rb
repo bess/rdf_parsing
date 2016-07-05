@@ -27,6 +27,18 @@ sse.execute(graph) do |result|
   puts result.o
 end
 
+# query for interests
+interests_query = "
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?interest
+  WHERE { ?s foaf:interest ?interest }
+"
+puts "Interests"
+s = SPARQL.parse(interests_query)
+s.execute(graph) do |result|
+  puts result.interest
+end
+
 # 4. Write the new graph out to a file in turtle
 # file endings to try: rdf, ttl, nt
 
@@ -39,4 +51,4 @@ end
 # Add and delete statements. Go through this tutorial: http://blog.datagraph.org/2010/03/rdf-for-ruby
 
 # 5. Remove all the "error reports to" statements
-graph.delete([rdfrb, RDF::DC.creator, arto])
+# graph.delete([rdfrb, RDF::DC.creator, arto])
